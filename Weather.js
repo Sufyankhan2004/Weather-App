@@ -38,6 +38,8 @@
                 weatherIcon.src = "Images/clear.png";
             }
 
+            document.querySelector(".weather").style.display = "block";
+
         }
 
         searchBtn.addEventListener("click", ()=>{
